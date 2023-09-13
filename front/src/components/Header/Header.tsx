@@ -13,6 +13,7 @@ const Header: FC<HeaderProps> = ({}) => {
       'text-black/80': isActive
     });
 
+//? testing VSCode git
   return (
     <header>
       <nav className="px-2 py-4">
