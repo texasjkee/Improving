@@ -1,8 +1,13 @@
-const App = () => {
+import { FC } from "react";
+import Header from "../Header/Header";
+
+interface AppProps {};
+
+const App: FC<AppProps> = ({}) => {
 
   return (
     <>
-      <h1>Vite + TypeScript</h1>
+      <Header />
     </>
   )
 }
